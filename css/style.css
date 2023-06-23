@@ -1,0 +1,119 @@
+/* Definir estilos globales */
+html {
+	box-sizing: border-box;
+}
+
+
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/* Configuración para la barra de navegación */
+header {
+	background-color: #333;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+nav li {
+	padding: 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Estilos para la sección "Acerca de" */
+section#about {
+	background-color: #eee;
+	padding: 20px;
+}
+
+img {
+	float: right;
+	width: 400px;
+	margin-left: 10px;
+}
+
+/* Estilos para la sección "Nuestros servicios" */
+section#services {
+	padding: 20px;
+	background-color: #ddd;
+}
+
+ul {
+  list-style: square;
+}
+
+/* Estilos para la sección "Contacto" */
+section#contact {
+	padding: 20px;
+	background-color: #eee;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	padding: 5px 0;
+}
+
+input[type="text"], input[type="email"], textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+.current-info {
+    padding: 10px;
+    margin-top: 30px;
+    }
+    
+.current-info p {
+align-items: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+color:#312e2e;
+}
+    
+#weather-icon {
+ width: 100px;
+}
+
+.contenido{
+    display:block;
+    text-align: center;
+    padding: 10px 40px;
+    border: 1px solid #0b030c;
+    color: #fff;
+    margin:10px;
+    text-decoration: none;
+    background:  #312e2e;
+   }

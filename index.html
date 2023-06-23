@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Vallemi de Paraguay</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="Js/archivo.js"></script>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> 
+
+</head>
+
+<body>
+	<header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+	</header>
+	<section class="contenido">
+
+        <div class="container">
+              <h1 class="Titulo">Clima</h1>
+              <div class="current-info">
+                  <p id="time"></p>
+                  <p id="date"></p>	
+                  <p id="temperature"></p>
+                  <p id="weather-description"></p>
+              </div>
+          </div>
+      
+       </section>
+	<main>
+		<section id="about">
+			<h2>Acerca de Vallemi</h2>	
+			<p>De la historia de Vallemí no se sabe con exactitud porque no conocen tanto sobre sus registros históricos. Lo que sí se sabe es que la Industria Nacional del Cemento se instaló a en esta zona en 1949 y que iba a ser una empresa privada llamada Vallemi S.A. Pero el grupo empresarial no pudo sostener la producción que arrancaba en 1952, por lo que el Estado Paraguayo incorpora esta industria a su cartera.
+
+                Se encuentra dentro del Distrito de San Lázaro, pero tal es la importancia de Vallemí ante su distrito, que inclusive la Municipalidad de ésta se encuentra en Vallemí. San Lázaro está a 6 kms de tierra, yendo más al norte, hacia la confluencia con el Río Apa.
+                
+                Vallemí se volvió una ciudad turística gracias a los trabajos de desarrollo en cuanto a las visitas de sus cavernas, sus playas y hasta el lugar conocido como Kamba Jhopo.
+                
+                - See more at: https://www.bienvenidoaparaguay.com/ciudades.php?xmlcity=26&xmldepto=3#sthash.AQHW5PPK.dpuf</p>
+	
+		</section>
+
+		<section id="services">
+			<h2>Nuestros servicios</h2>
+			<ul>
+				<li>Tours guiados</li>
+				<li>Pesca deportiva</li>
+				<li>Renta de botes</li>
+			</ul>
+			<p>Contamos con personal capacitado para ofrecerle una experiencia inolvidable. ¡Contacte con nosotros para reservar!</p>
+		</section>
+
+		<section id="contact">
+			<h2>Contacto</h2>
+			<form action="#" method="post" id="contact-form">
+				<label for="name">Nombre:</label>
+				<input type="text" id="name" name="name">
+
+				<label for="email">Correo electrónico:</label>
+				<input type="email" id="email" name="email">
+
+				<label for="message">Mensaje:</label>
+				<textarea id="message" name="message"></textarea>
+
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+
+    <footer class="bg-light text-muted">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Contacto</h5>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> Vallemi, Paraguay</li>
+                <li><i class="fas fa-envelope"></i> info@vallemi.com</li>
+                <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Redes Sociales</h5>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="text-center">&copy; 2022 Vallemi de Paraguay</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/JS/archivo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
